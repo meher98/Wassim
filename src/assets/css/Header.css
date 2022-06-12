@@ -1,0 +1,29 @@
+.Header .tsparticles-canvas-el {
+    width: 100vw !important;
+    height: 40vh !important;
+    top: 10vh;
+}
+.Header{
+    height: 50vh;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Airbnb Cereal App Extra Bold;
+    font-size: 3.5rem;
+    opacity: 1;
+    width: fit-content;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: var(--bg-primary);
+    z-index: 2;
+}

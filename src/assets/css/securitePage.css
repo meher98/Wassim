@@ -1,0 +1,612 @@
+.pageContainer{
+    width: 100%;
+    display: block;
+    
+}
+hr{
+    margin: 0;
+}
+/*******************first block ****************/
+.lightHeader{
+    background-color: #F8F8F8;
+    width: 100%; 
+    margin-top: 65px;   
+}
+
+.clipPath1{
+    clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+    background-color: #E8BB3E;
+    height: 800px;
+    width: 100%;
+ 
+}
+.txtAndImgContainer{
+    width: 100%;
+  
+    position: absolute;
+  
+}
+.headerText{
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    color:#0283b0;
+    width:50%;
+    margin-top: 10%;
+    margin-left: 42%;
+
+
+}
+.headerImage{
+    position: absolute;
+    width: 50%;
+    margin-top: 13%;
+}
+
+.head_im{
+    width:32vw;
+}
+
+/*******************second block ****************/
+.safetyCommit{
+    background-color:  #E8BB3E;
+    height: 600px;
+}
+
+.darkBlueClip{
+    clip-path: polygon(100% 18%, 15% 100%, 100% 100%);
+    background-color: #0283b0;
+    height: 600px;
+}
+.title{
+    font-size: 2.5rem;
+    color:white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.title:after {
+    width: 100px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 10px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    background-color: white;
+  }  
+
+
+/******************* third block ****************/
+
+.zeroTrust{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    background-color: #0283b0;
+}
+.lightBlueClipSpace{
+  
+  padding-left: 0%;
+}
+.lightBlueClip{
+    clip-path: polygon(0 100%, 0 7%, 87% 58%);
+    background-color: #0bb4dc;
+    height: 750px;
+    width:100%;
+    margin-top: -240px;
+}
+
+.yellowClip{
+    clip-path: polygon(0 100%, 100% 35%, 100% 100%);
+    height: 600px;
+    background-color: #E8BB3E;
+    margin-top: -600px;
+}
+
+/************************** third block************************/ 
+.systematicChecks{
+    background-color: #E8BB3E;
+    height: 1200px;
+}
+
+/*****************************************************************/
+
+.allTextsContainer{
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    display: block;
+    z-index: 2;
+    margin-top: 9.5%;
+}
+
+.elementZone{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    height: 400px;
+    padding-bottom: 10%;
+}
+.leftiesTxt{
+    font-size: 2rem;
+    color:white;
+    margin-top: 3%;
+    margin-left: 9%;
+    width: 90%;
+    
+
+}
+.rightiesTxt{
+    width: 70%;
+    padding-right: 10%;
+    margin-top: 2%;
+    font-size: 1.7rem;
+    color: white;
+
+}
+.sousTitre{
+    font-size:2.4rem;
+
+}
+.leftiesImg{
+    width: auto;
+    height: 18vw;
+    padding-top:2%;
+    margin-top: 5%;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+.rightieImg{
+    width: auto;
+    height: 14vw; 
+    padding-top:5%;
+}
+.rightieImg1{
+    margin-top: 3%;
+    padding-top:5%;
+    width: auto;
+    height: 17vw;
+}
+
+.rightiesTxt22{
+    width: 80%;
+    padding-right: 10%;
+    margin-top: 2%;
+    font-size: 1.7rem;
+    color: white;
+
+}
+.elementZone22{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    height: 400px;
+    padding-bottom: 10%;
+    margin-top: -5%;
+}
+@media screen and ( max-width:1100px) and (min-width :801px) {
+   
+    .headerText{
+        font-size: 4.2vw;
+        margin-top: 14%;
+        margin-left: 42%;
+    
+    }
+    .head_im{
+        width:35vw;
+        margin-top: 14%;
+    }
+    .clipPath1{
+        clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+        height: 620px;
+    }
+
+    .safetyCommit{
+        height: 580px;
+        transform: translateY(-1px);
+    }
+    
+    .darkBlueClip{
+        height: 580px;
+    }
+    .zeroTrust{
+        height: 300px;
+        transform: translateY(-2px);
+    }
+
+    .elementZone{
+        height: 330px;
+    }
+    .systematicChecks{
+        height: 950px;
+    }
+    .elementZone22{
+        width: 80%;
+        display: flex;
+        margin-left: 10%;
+        height: 300px;
+        padding-bottom: 10%;
+        margin-top:5%;
+    }
+
+}
+
+@media  screen and (max-width : 800px) and (min-width:600px){
+    
+    .clipPath1{
+        clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+        height: 400px;
+    }
+
+  
+    .safetyCommit{
+        background-color:  #E8BB3E;
+        height: 400px;
+        transform: translateY(-1px);
+    }
+    
+    .darkBlueClip{
+        height: 400px;
+    }
+    .lightBlueClip{
+        height: 500px;
+        margin-top: -200px;
+    }
+    
+    .yellowClip{
+        clip-path: polygon(0 100%, 100% 45%, 100% 100%);
+        height: 600px;
+        background-color: #E8BB3E;
+        margin-top: -600px;
+    }
+    .headerText{
+        padding-top: 8.5%;
+        font-size: 3.8vw;
+   
+   }
+   .headerImage{
+       margin-top: 20%;
+   }
+   .head_im{
+    width:30vw;
+    }
+    .zeroTrust{
+        height: 250px;
+        transform: translateY(-2px);
+    }
+    .systematicChecks{
+        height: 1200px;
+    }
+    .elementZone{
+        height: 350px;
+        padding-top: 5%;
+        padding-bottom: 13%;
+    }
+
+    .elementZone22{
+        height: 400px;
+        padding-bottom: 10%;
+    }
+
+    .leftiesTxt{
+        font-size: 2.8vw;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+    .rightiesTxt{
+        padding-right: 10%;
+        font-size: 2.8vw;
+    }
+    .sousTitre{
+        font-size:4.2vw;
+    }
+
+    .rightieImg{
+        margin-top: 2%;
+    }
+
+    .rightieImg1{
+        width: auto;
+        height: 19vw;
+        padding-top:8%;
+    }
+    .leftiesImg{
+        height: 20vw;
+        width: auto;
+        margin-top: 15%;
+    }
+    .title{
+        font-size: 3.5vw;
+    }
+}
+
+@media  screen and (max-width : 600px) and (min-width:459px){
+    .lightHeader{
+        background-color: #F8F8F8;
+        width: 100%; 
+        margin-top: px;   
+    }
+    .headerText{
+        font-size: 4.4vw;
+        margin-top: 25%;
+        margin-left: 42%;
+    
+    }
+    .headerImage{
+        margin-top: 18%;
+    }
+    .head_im{
+        width:30vw;
+        margin-top: 25%;
+    }
+    .clipPath1{
+        clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+        height: 500px;
+    }
+    .safetyCommit{
+        background-color:  #E8BB3E;
+        height: 300px;
+        transform: translateY(-1px);
+    }
+    
+    .darkBlueClip{
+        clip-path: polygon(100% 30%, 0% 100%, 100% 100%);
+        background-color: #0283b0;
+        height: 300px;
+    }
+    .lightBlueClip{
+        height: 400px;
+        margin-top: -200px;
+    }
+    
+    .yellowClip{
+        clip-path: polygon(0 100%, 100% 30%, 100% 100%);
+        height: 300px;
+        background-color: #E8BB3E;
+        margin-top: -300px;
+    }
+    
+    .zeroTrust{
+        height: 100px;
+        transform: translateY(-2px);
+    }
+    .systematicChecks{
+        height: 1200px;
+    }  
+    .elementZone{
+        height: 350px;
+        padding-bottom: 25%;
+    }
+
+    .elementZone22{
+        height: 430px;
+        padding-bottom: 30%;
+    }
+
+    .leftiesTxt{
+        font-size: 3.3vw;
+        margin-top: 5%;
+        margin-left: 9%;
+    }
+    .rightiesTxt{
+        padding-right: 10%;
+        font-size: 3.3vw;
+    }
+    .sousTitre{
+        font-size:5vw;
+    }
+    .allTextsContainer{
+        margin-top: 17%;
+    }
+    .leftiesImg{
+        width: auto;
+        height: 38vw;
+        padding-top: 20%;
+    }
+    .rightieImg{
+        width: auto;
+        height: 20vw;
+        padding-top: 10%;
+    }
+    .rightieImg1{
+        width: auto;
+        height: 27vw;
+        padding-top:13%;
+    }
+    .title{
+        font-size: 4.5vw;
+    }
+}
+
+@media  screen and (max-width : 460px) {
+    .lightHeader{
+        background-color: #F8F8F8;
+        width: 100%; 
+        margin-top: 50px;   
+    }
+    .headerText{
+        font-size: 4.5vw;
+        margin-top: 16%;
+        margin-left: 42%;
+    
+    }
+    .txtAndImgContainer{
+        margin-top: 15%;
+    }
+    .head_im{
+        width:30vw;
+        margin-top: 16%;
+    }
+    
+    .clipPath1{
+        clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+        height: 450px;
+    }
+    .safetyCommit{
+        background-color:  #E8BB3E;
+        height: 300px;
+        transform: translateY(-1px);       
+    }
+    
+    .darkBlueClip{
+        height: 300px;
+    }
+    .lightBlueClip{
+        height: 310px;
+        margin-top: -200px;
+    }
+    
+    .yellowClip{
+        clip-path: polygon(0 100%, 100% 70%, 100% 100%);
+        height: 600px;
+        background-color: #E8BB3E;
+        margin-top: -600px;
+        transform: translateY(2px);
+    }
+    
+    .zeroTrust{
+        height: 100px;
+        
+    }
+    .systematicChecks{
+        height: 1100px;
+        
+    }
+    .allTextsContainer{
+        margin-top: 25%;
+    }
+    .elementZone{
+        height: 300px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .elementZone22{
+        height: 380px;
+    }
+
+    .leftiesTxt{
+        font-size: 4vw;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+    .rightiesTxt{
+        padding-right: 10%;
+        font-size: 4vw;
+    
+    }
+    .sousTitre{
+        font-size:5vw;
+    }
+
+    .rightieImg{
+        margin-top: 2%;
+        height: 18vw;
+        margin-top: 10%;
+    }
+    .rightieImg1{
+        width: auto;
+        height: 30vw;
+        padding-top:13%;
+    }
+    .leftiesImg{
+        height: 20vw;
+        margin-top:25%;
+    }
+    .title{
+        font-size: 5vw;
+    }
+}
+@media  screen and (max-width : 360px) {
+    .headerText{
+        font-size: 4.5vw;
+        margin-top: 16%;
+        margin-left: 42%;
+    
+    }
+    .txtAndImgContainer{
+        margin-top: 27%;
+    }
+    .head_im{
+        width:30vw;
+        height: auto;
+        margin-top: 16%;
+    }
+    
+    .clipPath1{
+        clip-path: polygon(100% 66%, 0% 100%, 100% 100%);
+        height: 350px;
+    }
+    .safetyCommit{
+        background-color:  #E8BB3E;
+        height: 300px;
+    }
+    
+    .darkBlueClip{
+        height: 300px;
+    }
+    .lightBlueClip{
+        height: 300px;
+        margin-top: -200px;
+    }
+    
+    .yellowClip{
+        clip-path: polygon(0 100%, 100% 70%, 100% 100%);
+        height: 600px;
+        background-color: #E8BB3E;
+        margin-top: -600px;
+    }
+    
+    .zeroTrust{
+        height: 100px;
+    }
+    .systematicChecks{
+        height: 850px;
+    }
+    .elementZone{
+        height: 250px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .elementZone22{
+        height: 300px;
+    }
+
+    .leftiesTxt{
+        font-size: 4vw;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+    .rightiesTxt{
+        padding-right: 10%;
+        font-size: 4vw;
+    }
+    .sousTitre{
+        font-size:5vw;
+    }
+
+    .rightieImg{
+        margin-top: 2%;
+        height: 23vw;
+        width: auto;
+    }
+    .rightieImg1{
+        height: 30vw;
+        width: auto;
+        padding-top:13%;
+    }
+    .leftiesImg{
+        height: 25vw;
+        width: auto;
+        margin-top: 28%;
+    }
+    .title{
+        font-size: 5vw;
+    }
+    .allTextsContainer{
+        margin-top: 25%;
+    }
+}

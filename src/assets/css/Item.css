@@ -1,0 +1,27 @@
+.stockItem
+{
+    display: flex ;
+    align-items: center;
+}
+.Value
+{
+    color : white;
+    margin-left: 5px;
+    
+}
+.chiffres-container{
+    color : white;
+    height: 32px;
+    width: 100vw !important;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4px 0px;
+    font-weight: bold;
+}

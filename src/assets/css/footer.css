@@ -1,0 +1,78 @@
+@import 'root.css';
+.footer-container{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gradiant);
+    padding: 50px;
+   
+}
+.footer-logo-container{
+    padding-top: 50px;
+    margin: 0px 50px;
+}
+.footer-logo-container img{
+    width: 200px;
+}
+.footer-col{
+    margin: 0px 50px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+.footer-col h3{
+    font-family: Airbnb Cereal App Bold ;
+    color: white;
+}
+.footer-col p{
+    font-family: Airbnb Cereal App Light ;
+    color: white;
+    padding-left:10px;
+}
+.socialmedia-logo{
+    width: 28px;
+    margin: 0px 3px;
+}
+.contact-logo{
+    width: 20px;
+    height:20px;
+}
+.logo-info{
+    display: flex;
+    flex-direction: row;
+    
+}
+@media (max-width: 1125px){
+    .footer-col{
+        margin: 0px 15px;
+    }
+    .footer-logo-container{
+        margin: 0px 15px;
+    }
+}
+@media (max-width: 900px){
+    .footer-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color:  var(--text-secondary);
+    }
+    .footer-logo-container{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .footer-col{
+        margin: 0px 0px; 
+    }
+    .logo-info{
+        justify-content: center;
+    
+    }
+}

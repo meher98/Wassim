@@ -1,0 +1,243 @@
+@import "root.css";
+
+.Ourcofounders-container{
+background-color: #E8BB3E;
+height: auto;
+padding-bottom: 50px;
+transform: translateY(-340px);
+z-index: 0;
+padding-top:150px;
+margin-bottom: -396px;
+}
+.ourcofounders-title{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    
+}
+.ourcofounders-line{
+    color: white;
+    width: 100px;
+    height: 3px !important;
+    opacity: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+}
+.cofounders-presentation{
+   
+    width: 100%;
+    padding: 0px 150px;
+    text-align: center;
+  
+   
+
+}
+.confounders-text{
+    color: white;
+    font-size: 23px;
+    
+}
+.confounder-image-container{
+    width: 300px;
+    margin: 50px 0px 50px 100px;
+}
+.blue-square{
+    width: 250px;
+    height: 250px;
+    background : var(--gradiant)
+}
+
+.cofounder-image{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -350px;
+    width: 350px;
+    height: 350px;
+}
+.cofounders-images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.Cofounder{
+    color: white;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    
+    
+}
+.name-cofounder{
+    font-size: 25px;
+}
+.linkedin-logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.cofounderLogo{
+    width: 40%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+@media screen and (max-width: 1470px){
+    .confounders-text{
+       
+        font-size: 22px;
+        
+    }
+}
+@media screen and (max-width: 980px){
+    .Ourcofounders-container{
+        transform: translateY(-220px);
+        z-index: 0;
+        padding-top:150px;
+        margin-bottom: -396px;
+    }
+ 
+    .cofounders-presentation{
+        padding: 0px 50px;
+    }
+    .confounders-text{
+        color: white;
+        font-size: 20px;
+        
+    }
+    
+   
+    .cofounder-image{
+        position: absolute;
+        margin-left: -30px;
+        margin-top: -250px;
+        width: 250px;
+        height: 250px;
+    }
+    .blue-square{
+    
+        
+        width: 200px;
+        height: 200px;
+        background-color: var(--bg-primary);
+      
+    }
+    .Cofounder{
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        
+        
+        
+    }
+    .name-cofounder{
+        font-size: 20px;
+    }
+    .linkedin-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .ourcofounders-title{
+       
+        font-size: 40px;
+        
+    }
+
+    .ourcofounders-title{
+        
+        font-size: 40px;
+        
+    }
+}
+@media screen and (max-width: 800px){
+   
+    .cofounderLogo{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px){
+    .Ourcofounders-container{
+       
+        transform: translateY(-17%);
+        margin-bottom: -300px;
+        }
+  
+
+    
+  
+    .confounders-text{
+        color: white;
+        font-size: 20px;
+        
+    }
+    .ourcofounders-title{
+        
+        font-size: 35px;
+        
+    }
+    .linkedin-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .confounder-image-container{
+        margin: 40px 0px 40px 110px;
+    }
+    @media screen and (max-width: 450px){
+    
+        .confounders-text{
+            color: white;
+            font-size: 18px;
+            
+        }
+        .linkedin-logo{
+            width: 25px;
+            height: 25px;
+        }
+        
+    }
+    @media screen and (max-width:370px){
+        .blue-square{
+            
+            
+            width: 150px;
+            height: 150px;
+            background-color: var(--bg-primary);
+          
+        }
+        .cofounder-image{
+            position: absolute;
+            margin-left: -30px;
+            margin-top: -200px;
+            width: 200px;
+            height: 200px;
+        }
+        .ourcofounders-title{
+        
+            font-size: 30px;
+            
+        }
+        .confounder-image-container{
+            margin: 40px 0px 40px 140px;
+        }
+    }
+    @media screen and (max-width:315px){
+        .linkedin-logo{
+            width: 23px;
+            height: 23px;
+        }
+        .ourcofounders-title{
+        
+            font-size: 25px;
+            
+        }
+        .Ourcofounders-container{
+            margin-bottom: -330px;
+            }
+    }
+}

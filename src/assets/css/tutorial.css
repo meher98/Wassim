@@ -1,0 +1,68 @@
+@import 'root.css';
+
+  .video-type h3 {
+    font-family: 'Airbnb Cereal App Bold';
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0 0 5px;
+    color: var(--bg-secondary);
+  }
+
+  .video-type p {
+      font-family: 'Airbnb Cereal App Light';
+      color: var(--text-primary);
+  }
+  
+  .video-slide {
+    background-color: #fff;
+    margin: 40px auto;
+    max-width: 950px;
+    position: relative;
+    border: 0;
+    padding-top: 10px;    box-shadow: 3px 3px 3px 0 rgba(0,0,0,.5);
+
+  }
+  .video-slide iframe {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+  }
+  .video-slide:nth-child(odd):after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10px;
+    background: var(--gradiant);
+  }
+  .video-slide:nth-child(even):after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10px;
+    background: var(--gradiant);
+    
+  }
+  .video-type {
+    display: inline-block;
+    margin: 25px;
+    max-width: 230px;
+    text-align: left;
+    vertical-align: bottom;
+  }
+  .left .video-type {
+    bottom: 0;
+    left: 71%;
+    position: absolute;
+  }
+
+  .right .video-type {
+    bottom: 0;
+    right: 68.6%;
+  }
+
+  iframe{
+      height: 377px !important;
+  }

@@ -1,0 +1,175 @@
+.analytics-Image {
+  width: 500px !important;
+  z-index: 5;
+  transform: translateX(100px);
+}
+.AboutUs-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+ 
+}
+.analytics-Text {
+  border-radius: 20px !important;
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  margin-left: -270px;
+  background: var(--gradiant);
+  width: 70%;
+  padding-left: 300px;
+  z-index: 2;
+}
+.Aboutus-Text {
+  margin-top: 20px;
+  margin-left: 100px;
+  color: white;
+  font-size: 21px;
+  width:600px ;
+}
+.AboutUs-Title {
+  color: white !important;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 100px;
+}
+.AboutUs-line {
+  color: white;
+  width: 100px;
+  height: 2.5px !important;
+  opacity: 100%;
+  margin-left: calc(50% + 50px);
+  transform: translateX(-50%);
+  margin-bottom: 10px;
+}
+
+.aboutUsContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 1430px){
+  .analytics-Text {
+    border-radius: 20px !important;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    margin-left: -270px;
+    background: var(--gradiant);
+    width: 70%;
+    padding-left: 300px;
+    z-index: 2;
+  }
+  .analytics-Image {
+    width: 30% !important;
+    z-index: 5;
+    transform: translateX(2vw);
+  }
+ 
+
+  .Aboutus-Text {
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-size: 1.3vw;
+    width:80% ;
+  }
+
+}
+@media screen and (max-width: 980px) {
+  .AboutUs-line {
+    margin-left: 50%;
+    margin-bottom: 40px;
+  }
+  .AboutUs-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    margin-top: 30px;
+  }
+  
+  
+  .analytics-Text {
+    width: 90%;
+    padding-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40%;
+  }
+  .analytics-Image {
+    
+    width: 40% !important;
+    transform: translateY(20%);
+  }
+  .Aboutus-Text{
+      margin-left: 0;
+      font-size: 19px;
+      width: 100%;
+      margin-top: 0%;
+  }
+  .AboutUs-Title {
+    color: white !important;
+    text-align: center;
+    font-size: 33px;
+    margin-left: 0%;
+    margin-top: -40%;
+  }
+  
+}
+@media screen and (max-width: 725px){
+  
+}
+.analytics-Image{
+  width: 50%;
+}
+@media screen and (max-width: 560px){
+
+  .Aboutus-Text{
+    font-size: 18px;
+  }
+  .AboutUs-Container {
+  margin-top: 30px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .Aboutus-Text{
+    font-size: 18px;
+  }
+  .AboutUs-Container {
+    margin-top: 70px;
+    }
+ 
+}
+  @media screen and (max-width: 450px){
+    .Aboutus-Text{
+      font-size: 4vw;
+    }
+ 
+  
+}
+@media screen and (max-width: 385px) {
+
+
+  .Aboutus-Text{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 365px) {
+
+
+  .Aboutus-Text{
+    font-size: 4.4vw;
+  }
+}
+
